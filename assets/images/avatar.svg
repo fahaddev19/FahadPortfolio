@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8d9b8"/>
+      <stop offset="100%" stop-color="#e2b992"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e24"/>
+      <stop offset="100%" stop-color="#121217"/>
+    </linearGradient>
+    <linearGradient id="laptopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Background -->
+  <circle cx="200" cy="200" r="185" fill="url(#bgGrad)" stroke="#3b82f6" stroke-width="3" stroke-dasharray="8 6"/>
+
+  <!-- Background decorative rings -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#60a5fa" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Body / Hoodie -->
+  <path d="M120 380 C120 300, 150 280, 200 280 C250 280, 280 300, 280 380 Z" fill="url(#shirtGrad)"/>
+  <path d="M135 380 C135 315, 160 295, 200 295 C240 295, 265 315, 265 380 Z" fill="url(#hoodieGrad)"/>
+  
+  <!-- Neck -->
+  <rect x="182" y="225" width="36" height="50" rx="10" fill="url(#skinGrad)"/>
+
+  <!-- Head -->
+  <path d="M145 170 C145 110, 255 110, 255 170 C255 235, 235 255, 200 255 C165 255, 145 235, 145 170 Z" fill="url(#skinGrad)"/>
+
+  <!-- Ears -->
+  <circle cx="145" cy="178" r="12" fill="url(#skinGrad)"/>
+  <circle cx="255" cy="178" r="12" fill="url(#skinGrad)"/>
+
+  <!-- Hair -->
+  <path d="M142 165 C140 115, 160 85, 200 85 C240 85, 260 110, 258 165 C250 140, 245 130, 220 125 C195 120, 165 130, 142 165 Z" fill="url(#hairGrad)"/>
+  <path d="M142 155 C150 135, 175 118, 200 118 C225 118, 245 130, 255 150 C240 132, 215 124, 180 128 C155 132, 146 145, 142 155 Z" fill="#2d3748"/>
+
+  <!-- Glasses -->
+  <rect x="156" y="160" width="36" height="24" rx="8" fill="none" stroke="#0f172a" stroke-width="4"/>
+  <rect x="208" y="160" width="36" height="24" rx="8" fill="none" stroke="#0f172a" stroke-width="4"/>
+  <line x1="192" y1="172" x2="208" y2="172" stroke="#0f172a" stroke-width="4"/>
+  <line x1="145" y1="170" x2="156" y2="170" stroke="#0f172a" stroke-width="3"/>
+  <line x1="244" y1="170" x2="255" y2="170" stroke="#0f172a" stroke-width="3"/>
+
+  <!-- Eyes behind glasses -->
+  <circle cx="174" cy="172" r="4" fill="#0f172a"/>
+  <circle cx="226" cy="172" r="4" fill="#0f172a"/>
+  <circle cx="175" cy="171" r="1.5" fill="#ffffff"/>
+  <circle cx="227" cy="171" r="1.5" fill="#ffffff"/>
+
+  <!-- Eyebrows -->
+  <path d="M160 152 Q174 148 188 152" stroke="#1e1e24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M212 152 Q226 148 240 152" stroke="#1e1e24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M197 182 L194 196 L203 196" stroke="#c99f78" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Smile -->
+  <path d="M182 214 Q200 226 218 214" stroke="#8c5036" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Modern Headphones -->
+  <path d="M140 178 C135 150, 140 110, 200 110 C260 110, 265 150, 260 178" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round"/>
+  <rect x="135" y="162" width="12" height="32" rx="6" fill="#1d4ed8"/>
+  <rect x="253" y="162" width="12" height="32" rx="6" fill="#1d4ed8"/>
+
+  <!-- Laptop in front -->
+  <rect x="130" y="325" width="140" height="70" rx="10" fill="url(#laptopGrad)" stroke="#475569" stroke-width="2"/>
+  <rect x="142" y="337" width="116" height="50" rx="4" fill="#090d16"/>
+  <!-- Code on laptop screen -->
+  <text x="150" y="352" font-family="monospace" font-size="9" fill="#38bdf8">&lt;Muhammad /&gt;</text>
+  <text x="150" y="366" font-family="monospace" font-size="8" fill="#a855f7">const skills = [...]</text>
+  <text x="150" y="378" font-family="monospace" font-size="8" fill="#4ade80">return success;</text>
+
+  <!-- Floating Tech Badges around avatar -->
+  <g filter="url(#glow)">
+    <!-- Badge 1: Code -->
+    <rect x="55" y="130" width="46" height="46" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+    <text x="66" y="160" font-family="monospace" font-size="18" fill="#38bdf8" font-weight="bold">&lt;/&gt;</text>
+
+    <!-- Badge 2: JS -->
+    <rect x="300" y="125" width="46" height="46" rx="12" fill="#0f172a" stroke="#eab308" stroke-width="2"/>
+    <text x="312" y="156" font-family="sans-serif" font-size="18" fill="#facc15" font-weight="bold">JS</text>
+
+    <!-- Badge 3: React / Web -->
+    <rect x="65" y="240" width="44" height="44" rx="12" fill="#0f172a" stroke="#06b6d4" stroke-width="2"/>
+    <circle cx="87" cy="262" r="5" fill="#38bdf8"/>
+    <ellipse cx="87" cy="262" rx="14" ry="5" fill="none" stroke="#38bdf8" stroke-width="1.5" transform="rotate(30 87 262)"/>
+    <ellipse cx="87" cy="262" rx="14" ry="5" fill="none" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-30 87 262)"/>
+
+    <!-- Badge 4: CSS3 -->
+    <rect x="295" y="245" width="44" height="44" rx="12" fill="#0f172a" stroke="#a855f7" stroke-width="2"/>
+    <text x="303" y="273" font-family="sans-serif" font-size="15" fill="#c084fc" font-weight="bold">CSS</text>
+  </g>
+</svg>

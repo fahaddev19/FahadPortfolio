@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="600" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="p1-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#p1-bg)"/>
+  
+  <!-- Browser Chrome Top Bar -->
+  <rect x="20" y="20" width="560" height="340" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="45" cy="40" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="40" r="5" fill="#f59e0b"/>
+  <circle cx="79" cy="40" r="5" fill="#10b981"/>
+  <rect x="110" y="32" width="340" height="16" rx="6" fill="#0f172a"/>
+  <text x="120" y="44" font-family="sans-serif" font-size="10" fill="#64748b">https://store.fahad.dev/dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="20" y="60" width="110" height="300" fill="#0f172a"/>
+  <rect x="35" y="80" width="75" height="12" rx="4" fill="#3b82f6"/>
+  <rect x="35" y="105" width="60" height="8" rx="3" fill="#334155"/>
+  <rect x="35" y="125" width="70" height="8" rx="3" fill="#334155"/>
+  <rect x="35" y="145" width="50" height="8" rx="3" fill="#334155"/>
+  <rect x="35" y="165" width="65" height="8" rx="3" fill="#334155"/>
+
+  <!-- Content Header -->
+  <text x="150" y="90" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">NovaMart E-Commerce Platform</text>
+  <text x="150" y="108" font-family="sans-serif" font-size="11" fill="#94a3b8">Real-time inventory, Stripe checkout &amp; admin analytics</text>
+
+  <!-- Stat Cards -->
+  <rect x="150" y="125" width="125" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="162" y="145" font-family="sans-serif" font-size="10" fill="#94a3b8">Total Revenue</text>
+  <text x="162" y="170" font-family="sans-serif" font-size="16" font-weight="bold" fill="#38bdf8">$48,250</text>
+
+  <rect x="290" y="125" width="125" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="302" y="145" font-family="sans-serif" font-size="10" fill="#94a3b8">Active Orders</text>
+  <text x="302" y="170" font-family="sans-serif" font-size="16" font-weight="bold" fill="#a855f7">1,429</text>
+
+  <rect x="430" y="125" width="130" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="442" y="145" font-family="sans-serif" font-size="10" fill="#94a3b8">Conversion</text>
+  <text x="442" y="170" font-family="sans-serif" font-size="16" font-weight="bold" fill="#10b981">4.8% ↑</text>
+
+  <!-- Chart Card -->
+  <rect x="150" y="200" width="265" height="145" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="165" y="222" font-family="sans-serif" font-size="11" font-weight="bold" fill="#cbd5e1">Sales Analytics</text>
+  <!-- Chart Line -->
+  <path d="M165 315 C 200 290, 230 305, 270 260 C 310 215, 340 240, 395 230" fill="none" stroke="url(#p1-accent)" stroke-width="3"/>
+  <path d="M165 315 C 200 290, 230 305, 270 260 C 310 215, 340 240, 395 230 L395 330 L165 330 Z" fill="url(#p1-accent)" fill-opacity="0.15"/>
+  <circle cx="270" cy="260" r="4" fill="#38bdf8"/>
+  <circle cx="395" cy="230" r="4" fill="#8b5cf6"/>
+
+  <!-- Product Items -->
+  <rect x="430" y="200" width="130" height="145" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="442" y="222" font-family="sans-serif" font-size="11" font-weight="bold" fill="#cbd5e1">Top Products</text>
+  <rect x="442" y="235" width="106" height="25" rx="4" fill="#1e293b"/>
+  <circle cx="454" cy="247" r="6" fill="#3b82f6"/>
+  <rect x="466" y="244" width="60" height="6" rx="2" fill="#94a3b8"/>
+
+  <rect x="442" y="268" width="106" height="25" rx="4" fill="#1e293b"/>
+  <circle cx="454" cy="280" r="6" fill="#10b981"/>
+  <rect x="466" y="277" width="50" height="6" rx="2" fill="#94a3b8"/>
+
+  <rect x="442" y="301" width="106" height="25" rx="4" fill="#1e293b"/>
+  <circle cx="454" cy="313" r="6" fill="#ec4899"/>
+  <rect x="466" y="310" width="65" height="6" rx="2" fill="#94a3b8"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2-bg" x1="0" y1="0" x2="600" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090d16"/>
+      <stop offset="1" stop-color="#0f293a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#p2-bg)"/>
+  
+  <!-- Window Container -->
+  <rect x="20" y="20" width="560" height="340" rx="12" fill="#131e2d" stroke="#223a54" stroke-width="1.5"/>
+  <circle cx="45" cy="40" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="40" r="5" fill="#f59e0b"/>
+  <circle cx="79" cy="40" r="5" fill="#10b981"/>
+  <text x="110" y="44" font-family="sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">TaskFlow Kanban Studio</text>
+
+  <!-- Filter tabs -->
+  <rect x="380" y="32" width="60" height="18" rx="9" fill="#0284c7"/>
+  <text x="393" y="45" font-family="sans-serif" font-size="10" fill="#ffffff">Active</text>
+  <rect x="450" y="32" width="60" height="18" rx="9" fill="#1e293b"/>
+  <text x="463" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">Sprint 4</text>
+  <rect x="520" y="32" width="45" height="18" rx="9" fill="#1e293b"/>
+  <text x="528" y="45" font-family="sans-serif" font-size="10" fill="#94a3b8">+ Add</text>
+
+  <!-- Column 1: To Do -->
+  <rect x="35" y="70" width="160" height="275" rx="8" fill="#0b1320"/>
+  <text x="47" y="92" font-family="sans-serif" font-size="12" font-weight="bold" fill="#cbd5e1">To Do (3)</text>
+  <circle cx="178" cy="88" r="6" fill="#f59e0b"/>
+
+  <rect x="45" y="105" width="140" height="65" rx="6" fill="#1e293b"/>
+  <rect x="55" y="117" width="50" height="12" rx="3" fill="#f59e0b" fill-opacity="0.2"/>
+  <text x="60" y="126" font-family="sans-serif" font-size="8" font-weight="bold" fill="#fbbf24">BACKEND</text>
+  <text x="55" y="145" font-family="sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Design REST API</text>
+  <rect x="55" y="155" width="60" height="4" rx="2" fill="#475569"/>
+
+  <rect x="45" y="180" width="140" height="65" rx="6" fill="#1e293b"/>
+  <rect x="55" y="192" width="45" height="12" rx="3" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="60" y="201" font-family="sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">DESIGN</text>
+  <text x="55" y="220" font-family="sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Mobile Wireframes</text>
+  <rect x="55" y="230" width="45" height="4" rx="2" fill="#475569"/>
+
+  <!-- Column 2: In Progress -->
+  <rect x="215" y="70" width="160" height="275" rx="8" fill="#0b1320"/>
+  <text x="227" y="92" font-family="sans-serif" font-size="12" font-weight="bold" fill="#cbd5e1">In Progress (2)</text>
+  <circle cx="358" cy="88" r="6" fill="#38bdf8"/>
+
+  <rect x="225" y="105" width="140" height="75" rx="6" fill="#1e293b" stroke="#0284c7" stroke-width="1.5"/>
+  <rect x="235" y="117" width="45" height="12" rx="3" fill="#0284c7" fill-opacity="0.3"/>
+  <text x="240" y="126" font-family="sans-serif" font-size="8" font-weight="bold" fill="#38bdf8">FRONTEND</text>
+  <text x="235" y="145" font-family="sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">OAuth2 Login Flow</text>
+  <rect x="235" y="158" width="120" height="6" rx="3" fill="#0f172a"/>
+  <rect x="235" y="158" width="80" height="6" rx="3" fill="#38bdf8"/>
+
+  <rect x="225" y="190" width="140" height="65" rx="6" fill="#1e293b"/>
+  <rect x="235" y="202" width="45" height="12" rx="3" fill="#a855f7" fill-opacity="0.2"/>
+  <text x="240" y="211" font-family="sans-serif" font-size="8" font-weight="bold" fill="#c084fc">DEVOPS</text>
+  <text x="235" y="230" font-family="sans-serif" font-size="10" font-weight="600" fill="#f1f5f9">Dockerize Services</text>
+
+  <!-- Column 3: Done -->
+  <rect x="395" y="70" width="170" height="275" rx="8" fill="#0b1320"/>
+  <text x="407" y="92" font-family="sans-serif" font-size="12" font-weight="bold" fill="#cbd5e1">Completed (5)</text>
+  <circle cx="548" cy="88" r="6" fill="#10b981"/>
+
+  <rect x="405" y="105" width="150" height="65" rx="6" fill="#1e293b"/>
+  <text x="415" y="125" font-family="sans-serif" font-size="8" font-weight="bold" fill="#10b981">✓ MERGED</text>
+  <text x="415" y="145" font-family="sans-serif" font-size="10" font-weight="600" fill="#94a3b8">Setup CI/CD Pipeline</text>
+  <rect x="415" y="155" width="130" height="4" rx="2" fill="#10b981" fill-opacity="0.4"/>
+
+  <rect x="405" y="180" width="150" height="65" rx="6" fill="#1e293b"/>
+  <text x="415" y="200" font-family="sans-serif" font-size="8" font-weight="bold" fill="#10b981">✓ MERGED</text>
+  <text x="415" y="220" font-family="sans-serif" font-size="10" font-weight="600" fill="#94a3b8">PostgreSQL Schema</text>
+</svg>

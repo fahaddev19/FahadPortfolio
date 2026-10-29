@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p6-bg" x1="0" y1="0" x2="600" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18181b"/>
+      <stop offset="1" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#p6-bg)"/>
+  
+  <rect x="20" y="20" width="560" height="340" rx="12" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
+  <circle cx="45" cy="40" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="40" r="5" fill="#f59e0b"/>
+  <circle cx="79" cy="40" r="5" fill="#10b981"/>
+  <text x="110" y="44" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f43f5e">DevInk - Tech Blog &amp; Markdown Engine</text>
+
+  <!-- Left: Markdown Editor -->
+  <rect x="35" y="70" width="250" height="275" rx="8" fill="#09090b"/>
+  <text x="47" y="95" font-family="monospace" font-size="11" fill="#71717a">// index.md</text>
+  <text x="47" y="125" font-family="monospace" font-size="11" fill="#f43f5e"># Building Scalable UIs</text>
+  <text x="47" y="150" font-family="monospace" font-size="10" fill="#a1a1aa">In modern web development,</text>
+  <text x="47" y="168" font-family="monospace" font-size="10" fill="#a1a1aa">accessibility and performance</text>
+  <text x="47" y="186" font-family="monospace" font-size="10" fill="#a1a1aa">should come first.</text>
+  
+  <rect x="47" y="210" width="225" height="45" rx="4" fill="#18181b"/>
+  <text x="55" y="228" font-family="monospace" font-size="9" fill="#38bdf8">```javascript</text>
+  <text x="55" y="243" font-family="monospace" font-size="9" fill="#4ade80">const app = initApp();</text>
+
+  <!-- Right: Live Rendered Preview -->
+  <rect x="305" y="70" width="260" height="275" rx="8" fill="#27272a"/>
+  <rect x="320" y="90" width="90" height="16" rx="4" fill="#f43f5e" fill-opacity="0.2"/>
+  <text x="328" y="102" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fb7185">WEB ARCHITECTURE</text>
+  <text x="320" y="130" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Building Scalable UIs</text>
+  <text x="320" y="148" font-family="sans-serif" font-size="10" fill="#a1a1aa">5 min read • Oct 28, 2026</text>
+  <text x="320" y="175" font-family="sans-serif" font-size="11" fill="#d4d4d8">In modern web development, accessibility</text>
+  <text x="320" y="193" font-family="sans-serif" font-size="11" fill="#d4d4d8">and performance should come first...</text>
+
+  <!-- Tags -->
+  <rect x="320" y="220" width="60" height="20" rx="10" fill="#3f3f46"/>
+  <text x="330" y="234" font-family="sans-serif" font-size="9" fill="#e4e4e7">#React</text>
+  <rect x="388" y="220" width="55" height="20" rx="10" fill="#3f3f46"/>
+  <text x="398" y="234" font-family="sans-serif" font-size="9" fill="#e4e4e7">#CSS3</text>
+  <rect x="450" y="220" width="70" height="20" rx="10" fill="#3f3f46"/>
+  <text x="460" y="234" font-family="sans-serif" font-size="9" fill="#e4e4e7">#A11y</text>
+
+  <rect x="320" y="260" width="100" height="30" rx="6" fill="#f43f5e"/>
+  <text x="335" y="280" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Read Article →</text>
+</svg>
