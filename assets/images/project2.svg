@@ -70,3 +70,4 @@
   <text x="415" y="200" font-family="sans-serif" font-size="8" font-weight="bold" fill="#10b981">✓ MERGED</text>
   <text x="415" y="220" font-family="sans-serif" font-size="10" font-weight="600" fill="#94a3b8">PostgreSQL Schema</text>
 </svg>
+
